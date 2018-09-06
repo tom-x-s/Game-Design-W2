@@ -9,8 +9,8 @@ public class Movement : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        
-	}
+        _input = GetComponent<InputBehaviour>();
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -25,7 +25,6 @@ public class Movement : MonoBehaviour {
         {
             Debug.Log("Dash");
         }
-
 
     }
 }
