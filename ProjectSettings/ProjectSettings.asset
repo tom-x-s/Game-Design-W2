@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 9301db5ad2f410f4686d4bf7ab8aa1a1
+  productGUID: 7a03235f4fcb85044a2380cb756ccaa0
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Touch
+  productName: PlayerInteraction
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -648,8 +648,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: dbd25f93-ff32-479e-b0d7-166131179095
-  projectName: Touch
+  cloudProjectId: b9033937-51e8-4c8e-b672-a5f9d03d5aa2
+  projectName: PlayerInteraction
   organizationId: txsomhorst
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
