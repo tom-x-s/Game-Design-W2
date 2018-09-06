@@ -7,7 +7,7 @@ public class InputBehaviour : MonoBehaviour {
     public bool startedDoubleTap;
     private float timeSinceFirstTap;
 
-    public float tapInterval;
+    public float tapInterval = 0.5f;
 
     // Use this for initialization
     void Start () {
@@ -51,11 +51,9 @@ public class InputBehaviour : MonoBehaviour {
         return false;
     }
 
-
-
-
     // Update is called once per frame
-    void Update () {
+    void Update ()
+    {
 
         if (startedDoubleTap)
         {
@@ -69,10 +67,6 @@ public class InputBehaviour : MonoBehaviour {
 
         if (Input.touchCount == 0) return;
         Touch touch = Input.GetTouch(0);
-        if (touch.phase == TouchPhase.Ended)
-        {
-            startedDoubleTap = true;
-        }
 
     }
 }
