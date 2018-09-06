@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        _input = GetComponent<InputBehaviour>();
+        _inputB = GetComponent<InputBehaviour>();
     }
 	
 	// Update is called once per frame
